@@ -4,10 +4,9 @@ import sys
 import os
 import urllib2
 import unicodedata
-from bs4 import BeautifulSoup
 
 if len(sys.argv) != 2:
-    print "Usage: ./dlop.py [url to download from]"
+    print "Usage: ./dl-manga.py [url to download from]"
     sys.exit()
 url = sys.argv[1]
 
